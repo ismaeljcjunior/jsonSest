@@ -4,7 +4,7 @@ import express, { Express, Request, Response } from 'express'
 import cors from 'cors'
 import bodyParser from 'body-parser'
 
-const app = express();
+const app = express()
 
 app.use(cors())
 app.use(express.json())
